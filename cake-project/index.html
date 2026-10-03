@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="bg-cover bg-center min-h-screen px-4 md:px-10"
+        style="background-image: url('/image-cake/Rectangle 10 (2).png');">
+
+
+        <!-- Navbar -->
+        <div class="navbar bg-transparent text-white shadow-none justify-between">
+
+            <!-- LEFT (Logo) -->
+            <div class="flex items-center">
+                <img class="w-28 md:w-40" src="/image-cake/Modrino__2_-removebg-preview 1.png" alt="">
+            </div>
+
+            <!-- RIGHT (Dropdown for mobile) -->
+            <div class="lg:hidden">
+                <div class="dropdown dropdown-end">
+                    <div tabindex="0" role="button" class="btn btn-ghost text-white">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </div>
+
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content bg-white text-black rounded-box mt-3 w-52 p-2 shadow right-0">
+                        <li><a>Home</a></li>
+                        <li><a>Blog</a></li>
+                        <li><a>Contact Us</a></li>
+                        <li><a>Services</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- DESKTOP MENU -->
+            <div class="hidden lg:flex">
+                <ul class="menu menu-horizontal gap-6 font-bold">
+                    <li class="hover:text-[#E9BD8C]"><a>Home</a></li>
+                    <li class="hover:text-[#E9BD8C]"><a>Blog</a></li>
+                    <li class="hover:text-[#E9BD8C]"><a>Contact Us</a></li>
+                    <li class="hover:text-[#E9BD8C]"><a>Services</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Banner -->
+        <div class="flex flex-col justify-center min-h-[80vh]">
+            <p class="text-[#E9BD8C] text-sm md:text-lg font-medium">
+                Delicious Cafe
+            </p>
+
+            <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl text-white font-normal max-w-md md:max-w-lg pb-6 md:pb-12"
+                style="font-family: 'Sansita Swashed', cursive;">
+                Sweet Treats, Perfect Eats
+            </h2>
+
+            <div class="flex flex-col sm:flex-row gap-4 items-start sm:items-center">
+                <button
+                    class="btn px-6 md:px-8 font-bold text-sm md:text-lg text-white bg-[#933C24] hover:bg-white hover:text-[#933C24] transition">
+                    Shop Now
+                </button>
+
+                <h3 class="text-sm md:text-lg font-bold text-[#E9BD8C]">
+                    Learn More
+                </h3>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <section class="py-16">
+        <h2 class="text-3xl md:text-4xl text-center font-bold pb-10" style="font-family: 'Sansita Swashed', cursive;">
+            Top Products
+        </h2>
+
+
+        <!-- GRID START -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-10">
+
+            <!-- CARD -->
+            <div class="bg-black rounded-md">
+                <div class="bg-cover bg-center rounded-md p-5"
+                    style="background-image: url('/image-cake/70e353b34d4879bdd11cc99fe2ed814134eea05c.png');">
+
+                    <div class="text-center">
+
+                        <img src="/image-cake/free-photo-of-danish-pastry-with-jam-removebg-preview 1.png"
+                            class="w-28 h-28 md:w-36 md:h-36 mx-auto">
+
+                        <div class="flex justify-between py-4 text-white text-sm md:text-base">
+                            <p>$40</p>
+                            <span class="border px-2 rounded-full">i</span>
+                        </div>
+
+                        <div class="flex justify-between items-center">
+                            <h4 class="text-white text-sm md:text-lg">
+                                Whole Grain <br> Bread
+                            </h4>
+
+                            <button
+                                class="btn px-3 text-sm md:text-base bg-[#933C24] text-white hover:bg-white hover:text-[#933C24] transition">
+                                add
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="bg-black rounded-md">
+                <div class="bg-cover bg-center rounded-md p-5"
+                    style="background-image: url('/image-cake/70e353b34d4879bdd11cc99fe2ed814134eea05c.png');">
+
+                    <div class="text-center">
+
+                        <img src="/image-cake/240_F_127988957_BWUPTcOlkrtyRPwIVrUsKPG4LN3eL6nN-removebg-preview 1.png"
+                            class="w-28 h-28 md:w-36 md:h-36 mx-auto">
+
+                        <div class="flex justify-between py-4 text-white text-sm md:text-base">
+                            <p>$40</p>
+                            <span class="border px-2 rounded-full">i</span>
+                        </div>
+
+                        <div class="flex justify-between items-center">
+                            <h4 class="text-white text-sm md:text-lg">
+                                Whole Grain <br> Bread
+                            </h4>
+
+                            <button
+                                class="btn px-3 text-sm md:text-base bg-[#933C24] text-white hover:bg-white hover:text-[#933C24] transition">
+                                add
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="bg-black rounded-md">
+                <div class="bg-cover bg-center rounded-md p-5"
+                    style="background-image: url('/image-cake/70e353b34d4879bdd11cc99fe2ed814134eea05c.png');">
+
+                    <div class="text-center">
+
+                        <img src="/image-cake/240_F_292903339_fwMo8C8RQCPvCqeaphKVVnmZMUBF1cxW-removebg-preview 1.png"
+                            class="w-28 h-28 md:w-36 md:h-36 mx-auto">
+
+                        <div class="flex justify-between py-4 text-white text-sm md:text-base">
+                            <p>$40</p>
+                            <span class="border px-2 rounded-full">i</span>
+                        </div>
+
+                        <div class="flex justify-between items-center">
+                            <h4 class="text-white text-sm md:text-lg">
+                                Whole Grain <br> Bread
+                            </h4>
+
+                            <button
+                                class="btn px-3 text-sm md:text-base bg-[#933C24] text-white hover:bg-white hover:text-[#933C24] transition">
+                                add
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="bg-black rounded-md">
+                <div class="bg-cover bg-center rounded-md p-5"
+                    style="background-image: url('/image-cake/70e353b34d4879bdd11cc99fe2ed814134eea05c.png');">
+
+                    <div class="text-center">
+
+                        <img src="/image-cake/240_F_52954465_71BU4c18YSkFEAt8duzFR37eNBVuEP4C-removebg-preview 1.png"
+                            class="w-28 h-28 md:w-36 md:h-36 mx-auto">
+
+                        <div class="flex justify-between py-4 text-white text-sm md:text-base">
+                            <p>$40</p>
+                            <span class="border px-2 rounded-full">i</span>
+                        </div>
+
+                        <div class="flex justify-between items-center">
+                            <h4 class="text-white text-sm md:text-lg">
+                                Whole Grain <br> Bread
+                            </h4>
+
+                            <button
+                                class="btn px-3 text-sm md:text-base bg-[#933C24] text-white hover:bg-white hover:text-[#933C24] transition">
+                                add
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="bg-black rounded-md">
+                <div class="bg-cover bg-center rounded-md p-5"
+                    style="background-image: url('/image-cake/70e353b34d4879bdd11cc99fe2ed814134eea05c.png');">
+
+                    <div class="text-center">
+
+                        <img src="/image-cake/240_F_704728810_JFFKbwZHU3u4ROeDaauuTRv7YCnaWnwm-removebg-preview 1.png"
+                            class="w-28 h-28 md:w-36 md:h-36 mx-auto">
+
+                        <div class="flex justify-between py-4 text-white text-sm md:text-base">
+                            <p>$40</p>
+                            <span class="border px-2 rounded-full">i</span>
+                        </div>
+
+                        <div class="flex justify-between items-center">
+                            <h4 class="text-white text-sm md:text-lg">
+                                Whole Grain <br> Bread
+                            </h4>
+
+                            <button
+                                class="btn px-3 text-sm md:text-base bg-[#933C24] text-white hover:bg-white hover:text-[#933C24] transition">
+                                add
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="bg-black rounded-md">
+                <div class="bg-cover bg-center rounded-md p-5"
+                    style="background-image: url('/image-cake/70e353b34d4879bdd11cc99fe2ed814134eea05c.png');">
+
+                    <div class="text-center">
+
+                        <img src="/image-cake/240_F_811650375_Gh9LdTs3v7gYR5BJyFGEdy8D6c3mmR4o-removebg-preview 1.png"
+                            class="w-28 h-28 md:w-36 md:h-36 mx-auto">
+
+                        <div class="flex justify-between py-4 text-white text-sm md:text-base">
+                            <p>$40</p>
+                            <span class="border px-2 rounded-full">i</span>
+                        </div>
+
+                        <div class="flex justify-between items-center">
+                            <h4 class="text-white text-sm md:text-lg">
+                                Whole Grain <br> Bread
+                            </h4>
+
+                            <button
+                                class="btn px-3 text-sm md:text-base bg-[#933C24] text-white hover:bg-white hover:text-[#933C24] transition">
+                                add
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <section class="bg-cover bg-center py-10 md:py-16" style="background-image: url('/image-cake/Rectangle 45.png');">
+
+
+        <div class="text-center px-4">
+
+            <h3 class="text-2xl sm:text-3xl md:text-4xl text-[#933C24]"
+                style="font-family: 'Sansita Swashed', cursive;">
+                20% Off Your <br class="hidden sm:block"> First Order
+            </h3>
+
+            <p class="text-sm md:text-base text-[#5D5D5D] max-w-xs md:max-w-md mx-auto py-4 md:py-6">
+                Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum.
+            </p>
+
+            <button
+                class="btn px-6 md:px-10 text-sm md:text-lg text-white bg-[#933C24] hover:bg-white hover:text-[#933C24] transition rounded-full">
+                Learn More
+            </button>
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+    <section class="py-10 md:py-16">
+
+
+        <h2 class="text-3xl sm:text-4xl md:text-5xl text-center py-6 md:py-10"
+            style="font-family: 'Sansita Swashed', cursive;">
+            Explore More
+        </h2>
+
+        <!-- MENU -->
+        <div>
+            <ul class="flex flex-wrap justify-center gap-4 md:gap-8 text-sm md:text-lg px-4">
+                <li class="text-[#5D5D5D] font-bold hover:text-[#933C24] hover:underline underline-offset-4">Cake</li>
+                <li class="text-[#5D5D5D] font-bold hover:text-[#933C24] hover:underline underline-offset-4">Muffins
+                </li>
+                <li class="text-[#5D5D5D] font-bold hover:text-[#933C24] hover:underline underline-offset-4">Croissant
+                </li>
+                <li class="text-[#5D5D5D] font-bold hover:text-[#933C24] hover:underline underline-offset-4">Bread</li>
+                <li class="text-[#5D5D5D] font-bold hover:text-[#933C24] hover:underline underline-offset-4">Tart</li>
+                <li class="text-[#5D5D5D] font-bold hover:text-[#933C24] hover:underline underline-offset-4">Favorite
+                </li>
+            </ul>
+
+            <hr class="w-full max-w-5xl mx-auto border border-[#D9D9D9] mt-4">
+        </div>
+
+        <!-- IMAGES -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-10 py-10">
+
+            <img class="w-full" src="/image-cake/Rectangle 20.png" alt="">
+            <img class="w-full" src="/image-cake/Rectangle 21.png" alt="">
+            <img class="w-full" src="/image-cake/Rectangle 22.png" alt="">
+            <img class="w-full" src="/image-cake/Rectangle 23.png" alt="">
+            <img class="w-full" src="/image-cake/Rectangle 24.png" alt="">
+            <img class="w-full" src="/image-cake/Rectangle 25.png" alt="">
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+    <section class="my-10 md:my-16 bg-cover bg-center py-12 md:py-20"
+        style="background-image: url('/image-cake/Rectangle 41.png');">
+
+
+        <div class="text-center px-4">
+
+            <h3 class="text-3xl sm:text-4xl md:text-5xl text-white" style="font-family: 'Sansita Swashed', cursive;">
+                About Us
+            </h3>
+
+            <p class="text-sm md:text-base text-[#B9B9B9] max-w-xs md:max-w-md mx-auto py-4 md:py-6">
+                Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis.
+            </p>
+
+            <button
+                class="btn px-6 md:px-10 text-sm md:text-lg text-white bg-[#933C24] hover:bg-white hover:text-[#933C24] transition rounded-full">
+                Read More
+            </button>
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+    <section class="py-10 md:py-16">
+
+
+        <h3 class="text-3xl md:text-4xl text-center pb-8 md:pb-12" style="font-family: 'Sansita Swashed', cursive;">
+            Featured Treats
+        </h3>
+
+        <!-- GRID -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-10">
+
+            <!-- CARD -->
+            <div class="text-center">
+                <img class="w-full rounded-md" src="/image-cake/Rectangle 153.png" alt="">
+                <div class="flex justify-between mt-3 font-bold text-sm md:text-lg">
+                    <p>Puff Pastry</p>
+                    <h6>$8</h6>
+                </div>
+            </div>
+
+            <!-- CARD -->
+            <div class="text-center">
+                <img class="w-full rounded-md" src="/image-cake/Rectangle 154.png" alt="">
+                <div class="flex justify-between mt-3 font-bold text-sm md:text-lg">
+                    <p>Doughnuts</p>
+                    <h6>$8</h6>
+                </div>
+            </div>
+
+            <!-- CARD -->
+            <div class="text-center">
+                <img class="w-full rounded-md" src="/image-cake/Rectangle 156.png" alt="">
+                <div class="flex justify-between mt-3 font-bold text-sm md:text-lg">
+                    <p>Brownies</p>
+                    <h6>$8</h6>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <footer class="bg-cover bg-center text-[#d6b48a] py-10 md:py-16 px-4"
+        style="background-image: url('/image-cake/Rectangle 75.png');">
+
+        
+        <div class="max-w-7xl mx-auto">
+
+            <!-- TOP -->
+            <div
+                class="flex flex-col md:flex-row justify-between items-center gap-6 border-b border-[#3a2e22] pb-6 mb-8 text-center md:text-left">
+
+                <!-- LOGO -->
+                <img src="/image-cake/Modrino__2_-removebg-preview 1.png" class="w-32 md:w-40 mx-auto md:mx-0">
+
+                <!-- SOCIAL -->
+                <div class="flex flex-col items-center md:items-end gap-3">
+                    <span class="text-sm">Follow us</span>
+
+                    <div class="flex justify-center md:justify-end gap-4 text-xl">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-pinterest"></i>
+                        <i class="fa-solid fa-phone"></i>
+                        <i class="fa-brands fa-square-instagram"></i>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- MAIN GRID -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 text-sm text-center md:text-left">
+
+                <!-- ABOUT -->
+                <div>
+                    <h2 class="text-lg md:text-xl font-semibold mb-4">About Us</h2>
+                    <p>(456) 789-12301</p>
+                    <p>info@modrino.co.uk</p>
+                    <p>South 13th street</p>
+                    <p>New york America</p>
+                </div>
+
+                <!-- EXPLORE -->
+                <div>
+                    <h2 class="text-lg md:text-xl font-semibold mb-4">Explore</h2>
+                    <ul class="space-y-2">
+                        <li>Home</li>
+                        <li>Blog</li>
+                        <li>Contact us</li>
+                        <li>Services</li>
+                    </ul>
+                </div>
+
+                <!-- NEWS -->
+                <div>
+                    <h2 class="text-lg md:text-xl font-semibold mb-4">Recent News</h2>
+
+                    <div class="flex flex-col items-center md:flex-row md:items-start gap-3 mb-4">
+                        <img src="/image-cake/Rectangle 157.png" class="w-14 h-14 object-cover">
+                        <div class="text-center md:text-left">
+                            <p class="text-xs text-[#a88b6a]">June 14, 2024</p>
+                            <p class="text-white text-sm">Puff pastry bliss.</p>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col items-center md:flex-row md:items-start gap-3">
+                        <img src="/image-cake/Rectangle 158.png" class="w-14 h-14 object-cover">
+                        <div class="text-center md:text-left">
+                            <p class="text-xs text-[#a88b6a]">June 14, 2024</p>
+                            <p class="text-white text-sm">Puff pastry bliss.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- BOTTOM -->
+            <div class="text-center text-xs md:text-sm text-gray-400 mt-10">
+                © 2026 Bake House. All rights reserved
+            </div>
+
+        </div>
+        
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
